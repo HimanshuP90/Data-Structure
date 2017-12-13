@@ -1,0 +1,3 @@
+// to make git ignore all files ending in .class
+
+*.class

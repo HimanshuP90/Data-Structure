@@ -59,11 +59,13 @@ class LinkedList{
 	public static void main(String[] args) {
 		
 		LinkedList llist = new LinkedList();
-		llist.append(6);
-		llist.push(7);
-		llist.push(1);
+		
+		llist.append(6); //	Append a new node at the end list 
+		
+		llist.push(7); // Insert a new node at the front of the list
 
-		llist.insertAfterGivenNode(llist.head.next, 18);
+		llist.insertAfterGivenNode(llist.head.next, 18); // Insert after the given node
+		
 		System.out.print("Created Linked List: ");
 		llist.print();
 		System.out.print("\n");
